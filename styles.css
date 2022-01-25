@@ -8,4 +8,19 @@ body {
     background-color:grey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
+    float:left
+}
+
+.section2 {
+    background-color:grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    float:center
+}
+
+.section3 {
+    background-color:grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    float:right
 }
