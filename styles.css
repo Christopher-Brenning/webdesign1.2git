@@ -1,12 +1,15 @@
 body {
     text-align:center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("images/calico-fur-pattern.jpg");
+    background-color:white;
 }
 
-header {
-    text-emphasis: filled red;
+.header {
+    font-size: 25px;
+    font-weight: 300;
+    
 }
-
 .section-container {
     display: table;
     float:center;
