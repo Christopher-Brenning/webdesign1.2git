@@ -24,6 +24,16 @@ body {
     border-radius: 4px;
     background: rgba(119, 119, 119, 0.801);
 }
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color:grey
+}
+
 .section-container {
     display: table;
     float:center;
@@ -83,4 +93,14 @@ body {
   
   .tooltip:hover .tooltiptext {
     visibility: visible;
+  }
+
+  .buttontests {
+    background-color:rgba(197, 26, 26, 0.767);
+    font-size: medium;
+    display: table-cell;
+    float:center;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 33.3%;
   }
