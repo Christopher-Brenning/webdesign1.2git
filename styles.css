@@ -1,5 +1,11 @@
 body {
-    background-color: grey;
+    background-color: rgb(53, 53, 53);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+}
+
+.section1 {
+    background-color:grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
 }
