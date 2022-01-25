@@ -1,7 +1,10 @@
 body {
-    background-color: rgb(53, 53, 53);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+}
+
+.sections {
+    display: table-cell;
 }
 
 .section1 {
