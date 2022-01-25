@@ -4,20 +4,22 @@ body {
 }
 
 .sections {
-    display: table-cell;
+    display: table-column-group;
 }
 
 .section1 {
     background-color:grey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
-    float:left
+    display: table-column;
+    float:left;
 }
 
 .section2 {
     background-color:grey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
+    display: table-column;
     float:center
 }
 
@@ -25,5 +27,6 @@ body {
     background-color:grey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
+    display: table-column;
     float:right
 }
