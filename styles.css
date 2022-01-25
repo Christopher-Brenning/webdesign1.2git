@@ -18,11 +18,13 @@ body {
 .navigational1 {
     font-size: 25px;
     margin: auto;
-    width: 50%;
+    width: 20;
     padding: 10px;
     border: 2px solid black;
     border-radius: 4px;
     background: rgba(119, 119, 119, 0.801);
+    display: table;
+    float: right
 }
 
 a:link {
