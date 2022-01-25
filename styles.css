@@ -7,8 +7,22 @@ body {
 
 .header {
     font-size: 25px;
-    font-weight: 300;
-    
+    float:center;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(128, 128, 128, 0.767);
+
+}
+.navigational {
+    font-size: 25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background: rgba(119, 119, 119, 0.801);
 }
 .section-container {
     display: table;
@@ -20,7 +34,7 @@ body {
 }
 
 .section {
-    background-color:grey;
+    background-color:rgba(128, 128, 128, 0.767);
     font-size: medium;
     display: table-cell;
     float:center;
@@ -29,3 +43,20 @@ body {
     width: 33.3%;
 }
 
+.footer {
+    float:center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    width:20%;
+}
+
+.blog {
+    font-size: 25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background: rgba(119, 119, 119, 0.801);
+}
