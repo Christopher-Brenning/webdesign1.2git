@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    text-emphasis: '$' orange;
+    text-emphasis: filled red;
 }
 
 .section-container {
@@ -21,8 +21,8 @@ header {
     font-size: medium;
     display: table-cell;
     float:center;
-    border: 6px solid #fff;
-    border-radius: 12px;
+    border: 2px solid black;
+    border-radius: 4px;
     width: 33.3%;
 }
 
