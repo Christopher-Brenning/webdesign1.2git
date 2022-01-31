@@ -2,6 +2,18 @@
     <html>
         <link rel="stylesheet" href="styles.css">
         <body>
+            <head>
+                <style>
+                    #blogpost {
+                        margin: auto;
+                        width: 50%;
+                        padding: 10px;
+                        background-color:rgba(128, 128, 128, 4);
+                        border: 1px solid black;
+                        border-radius: 6px;
+                    }
+                </style>
+            </head>
             <header>
                 <div class="header">
                 <h1 style=color:red><div class="tooltip">
@@ -19,7 +31,6 @@
                 </span>
                 </div></h1></div>
             </header>
-            
             <div class="section-container">
                 <div class="section">
                     <nav>
@@ -27,9 +38,11 @@
                     </nav>
                     <img src="images/jeans.jpg" alt="Jean Tailor" height="150" width="200">
                     <h3>A New Brand</h3>
-                    <p>Women's jeans are the <b>only</b> thing available at the moment! Sorry for the inconvenience!</p>
-                    <p>The <i>Calico Patchwork</i> style is coming soon!</p>
-                    <p>Other jean textures coming soon!</p>
+                        <ol>
+                            <li>Women's jeans are the <b>only</b> thing available at the moment! Sorry for the inconvenience!</li>
+                            <li>The <i>Calico Patchwork</i> style is coming soon!</li>
+                            <li>Other jean textures coming soon!</li>
+                        </ol>
                 </div>
                 <div class="section">
                     <nav>
@@ -37,7 +50,9 @@
                     </nav>
                     <img src="images/mugs.jpg" alt="Ceramics" height="150" width="200">
                     <h3>Fun Items!</h3>
-                    <p>From mugs to cat toys, we've got plenty!</p>
+                        <ol>
+                            <li>From mugs to cat toys, we've got plenty!</li>
+                        </ol>
                 </div>
                 <div class="section">
                     <nav>
@@ -45,55 +60,53 @@
                     </nav>
                     <img src="images/donate.jpg" alt="Bottle of Coins" height="150" width="200">
                     <h3>The Main Goal</h3>
-                    <p>Our main goal here at <b><i>Calico Customs</i></b> is to provide for the poor, needy, and homeless!</p>
-                    <p>If you don't want a percentage of granted money going to charity, but all of it, click here!</p>
+                        <ol>
+                            <li>Our main goal here at <b><i>Calico Customs</i></b> is to provide for the poor, needy, and homeless!</li>
+                            <li>If you don't want a percentage of granted money going to charity, but all of it, click here!</li>
+                        </ol>
                 </div>
             </div>
             <div class="blog">
-                <style>
-                    #blogpost {
-                        margin: auto;
-                        width: 50%;
-                        padding: 10px;
-                        background-color:rgba(128, 128, 128, 4);
-                        border: 1px solid black;
-                        border-radius: 6px;
-                    }
-                </style>
-                <h2>Blog</h2>
+                    <h2>Blog</h2>
                 <p id="blogpost">
                     We here at <b><i>Calico Customs</i></b> are reaching for a philanthropist based future!
                 </p>
+                <br>
                 <p id="blogpost"> 
+                                    <!--I honestly don't know what's going on here. The </p> isn't until the end of the table,
+                                    and yet it is appearing as so on the actual html page. I have done this repeatedly with
+                                    different attempts in different parts of this coding page, and I have deleted them because
+                                    they had the same results. In the future, I may use this again when I cannot use the
+                                    styles.css page as an umbrella code. For now, however, I have no need to separate from 
+                                    umbrella code and will continue to use it. For my grade, however, I will maintain the
+                                    "blogpost" id until it is no longer necessary.-->
                     <h3>30 January, 2022</h3>
                     <h4>I like cats.</h4>
                     <table>
-                        <ol>
                         <tr>
                             <th>Cat Breeds</th>
                             <th>My Favoritism</th>
                         </tr>
                         <tr>
-                            <td><li>Calico</li></td>
+                            <td>Calico</td>
                             <td>47.3%</td>
                         </tr>
                         <tr>
-                            <td><li>Bombay</li></td>
+                            <td>Bombay</td>
                             <td>15.9%</td>
                         </tr>
                         <tr>
-                            <td><li>Bengal</li></td>
+                            <td>Bengal</td>
                             <td>14.6%</td>
                         </tr>
                         <tr>
-                            <td><li>Mackerel Tabby</li></td>
+                            <td>Mackerel Tabby</td>
                             <td>13.3%</td>
                         </tr>
                         <tr>
-                            <td><li>American Wiretail</li></td>
+                            <td>American Wiretail</td>
                             <td>8.3%</td>
                         </tr>
-                        </ol>
                     </table>
                 </p>
             </div>
@@ -107,5 +120,4 @@
             <p></p>
             </footer>
         </body>
-        <!--this is a comment-->
     </html>
