@@ -64,7 +64,11 @@ a:visited {
     width:20%;
 }
 
-.blog {
+.blog_close {
+    visibility: hidden;
+}
+
+.blog_open {
     font-size: 25px;
     margin: auto;
     width: 50%;
