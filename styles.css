@@ -82,13 +82,11 @@ a:visited {
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 300px;
-    background-color: rgba(217, 255, 0, 0.747);
-    color: rgb(184, 183, 183);
+    background-color: blue;
+    color: yellow;
     text-align: center;
     border-radius: 3px;
     padding: 5px 0;
-  
-    /* Position the tooltip */
     position: absolute;
     z-index: 1;
   }
